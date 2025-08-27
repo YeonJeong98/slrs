@@ -156,9 +156,10 @@ header .minimenu a:hover {
     font-weight: 500;
 }
 
-.sub_head .mobile-header>ul>li ul li {
+.sub_head .mobile-header>ul>li>ul {
     display: none;
 }
+
 
 .sumn {
     display: none;

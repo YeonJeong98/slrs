@@ -14,23 +14,34 @@ $(document).ready(function () {
     })
 })
 
-$(document).ready(function () {
-    $('.sub_head > .mobile-header > ul > li').click(function (e) {
-        e.stopPropagation()
-
-        if (!$(this).hasClass('active')) {
-            // 다른 메뉴 active 제거 및 하위 메뉴 닫기
-            $(this).siblings('li').removeClass('active').children('ul').stop().slideUp()
-
-            // 클릭한 메뉴 active 추가 및 하위 메뉴 열기
-            $(this).addClass('active').children('ul').stop().slideDown()
-        }
-    })
-})
-
 function toggleMobileMenu() {
-    $('.sumn').stop().slideToggle();
+    const $menu = $('.sumn');
+
+    if ($menu.is(':visible')) {
+        // 메뉴가 열려 있으면 → 닫기
+        $menu.stop().slideUp();
+        $('.sub_head > .mobile-header > ul > li')
+            .removeClass('active')
+            .children('ul').stop().slideUp();
+    } else {
+        // 메뉴가 닫혀 있으면 → 열기
+        $menu.stop().slideDown();
+    }
 }
+
+$('.sub_head > .mobile-header > ul > li').click(function (e) {
+    e.stopPropagation()
+
+    const isActive = $(this).hasClass('active')
+
+    // 모든 메뉴 닫기
+    $('.sub_head > .mobile-header > ul > li').removeClass('active').children('ul').stop().slideUp()
+
+    if (!isActive) {
+        // 클릭한 메뉴가 닫혀 있었으면 열기
+        $(this).addClass('active').children('ul').stop().slideDown()
+    }
+})
 
 $(function () {
     $(window).scroll(function () {

@@ -184,6 +184,10 @@
         z-index: 99;
     }
 
+    .sub_head .sumn>li.active {
+        color: #F3744D;
+    }
+
 
     .main1 .mainpage1 {
         height: 400px;
@@ -339,12 +343,14 @@
     }
 
     main .main2 .bg h2 {
-        font-size: 20px;
-        padding-right: 22%;
+        font-size: 25px;
+        padding-right: 12%;
+        margin-top: 20px;
     }
 
     main .main2 .bg p {
         padding-right: 32%;
+        margin-top: 13px;
     }
 
     .main1 .mainpage1 .img1 {
@@ -362,7 +368,10 @@
         height: 150px;
     }
 
-    main .main2 .boxs .box.box1 h3 {
+    main .main2 .boxs .box.box1 h3,
+    main .main2 .boxs .box.box2 h3,
+    main .main2 .boxs .box.box3 h3,
+    main .main2 .boxs .box.box4 h3 {
         font-size: 15px;
     }
 
@@ -389,6 +398,14 @@
         margin-bottom: 2px;
     }
 
+    main .main3 {
+        padding: 0;
+    }
+
+    main .main3 h2 {
+        font-size: 30px;
+    }
+
     main .main4 {
         height: 1800px;
         padding: 0;
@@ -404,6 +421,10 @@
         margin-top: 80px;
     }
 
+    main .main4 .page4 .news h2 {
+        font-size: 23px;
+    }
+
     main .main4 .page4 .announcement {
         margin-top: 120px;
     }
@@ -414,6 +435,10 @@
 
     main .main4 .page4 .announcement .size p.delete {
         display: none;
+    }
+
+    main .main4 .page4 .announcement h2 {
+        font-size: 23px;
     }
 
     main .main4 .page4 .announcement .an1,
@@ -455,6 +480,7 @@
 
 @media screen and (max-width: 390px) {
 
+
     main .main4 .page4 .announcement .an1,
     main .main4 .page4 .announcement .an2,
     main .main4 .page4 .announcement .an3,
@@ -472,4 +498,20 @@
         text-align: center;
     }
 
+
+    footer .logo2 img {
+        margin-left: 120px;
+        width: 150px;
+    }
+
+    footer .sl p {
+        margin: 0;
+        width: 500px;
+        margin-left: -54px;
+        font-size: 10px;
+    }
+
+    footer .set {
+        margin: 30px 0 0 40px;
+    }
 }
