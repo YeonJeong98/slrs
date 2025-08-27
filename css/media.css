@@ -1,0 +1,475 @@
+@media screen and (max-width: 1440px) {
+
+    header .head .logo img {
+        margin-left: 50px;
+    }
+
+    header .minimenu ul {
+        width: 200px;
+        margin: 0 100px;
+        margin-left: 150px;
+    }
+
+    header .menubar {
+        margin-left: 100px;
+    }
+
+    header .menubar ul {
+        width: 800px;
+    }
+
+    main .main2 .bg h2 {
+        padding-right: 28%;
+    }
+
+    main .main2 .bg p {
+        padding-right: 43%;
+    }
+
+    .main2 .boxs {
+        gap: 40px;
+    }
+
+    .main2 .boxs .box {
+        width: 300px;
+    }
+
+    .main2 .boxs .box .orange-overlay p {
+        width: 180px;
+        font-size: 14px;
+    }
+
+    main .main3 .ed_ct {
+        gap: 40px;
+    }
+
+    main .main4 .page4 {
+        gap: 100px;
+        justify-content: center;
+    }
+
+    main .main4 .page4 .announcement .an1,
+    main .main4 .page4 .announcement .an2,
+    main .main4 .page4 .announcement .an3,
+    main .main4 .page4 .announcement .an4,
+    main .main4 .page4 .announcement .an5,
+    main .main4 .page4 .announcement .an6,
+    main .main4 .page4 .announcement .an7,
+    main .main4 .page4 .announcement .an8 {
+        width: 800px;
+    }
+
+    footer {
+        padding-right: 500px;
+    }
+
+    footer .sl {
+        text-align: center;
+        line-height: 1.8;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    header .head .logo img {
+        margin-left: 20px;
+    }
+
+    header .minimenu ul {
+        width: 140px;
+        font-size: 14px;
+        margin-left: -50px;
+        margin-top: 5px;
+    }
+
+    header .menubar {
+        margin-left: 50px;
+    }
+
+    header .menubar ul {
+        width: 600px;
+    }
+
+
+    main .main2 .bg h2 {
+        padding-right: 28%;
+    }
+
+    main .main2 .bg p {
+        padding-right: 43%;
+    }
+
+    .main2 .boxs {
+        gap: 40px;
+    }
+
+    .main2 .boxs .box {
+        width: 200px;
+    }
+
+    .main2 .boxs .box .orange-overlay p {
+        width: 180px;
+        font-size: 14px;
+    }
+
+    main .main3 .ed_ct {
+        gap: 40px;
+    }
+
+    main .main4 .page4 {
+        gap: 100px;
+        justify-content: center;
+    }
+
+    main .main4 .page4 .announcement .an1,
+    main .main4 .page4 .announcement .an2,
+    main .main4 .page4 .announcement .an3,
+    main .main4 .page4 .announcement .an4,
+    main .main4 .page4 .announcement .an5,
+    main .main4 .page4 .announcement .an6,
+    main .main4 .page4 .announcement .an7,
+    main .main4 .page4 .announcement .an8 {
+        width: 600px;
+    }
+
+
+    footer .logo2 img {
+        margin-right: 400px;
+        margin-top: 20px;
+    }
+
+    footer .sl {
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    footer .sl p {
+        font-size: 13px;
+        margin-right: 300px;
+        width: 430px;
+    }
+
+    footer .set {
+        width: 300px;
+        margin-left: 360px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    body header {
+        display: none;
+    }
+
+    body .sub_head {
+        width: 100%;
+        display: block;
+        position: fixed;
+        z-index: 99;
+    }
+
+
+    .main1 .mainpage1 {
+        height: 400px;
+    }
+
+    .main1 .swiper-pagination {
+        --swiper-theme-color: #F3744D;
+    }
+
+    main .main2 {
+        height: 1200px;
+    }
+
+    main .main2 .bg h2 {
+        font-size: 30px;
+        padding-right: 25%;
+    }
+
+    main .main2 .bg p {
+        padding-right: 40%;
+    }
+
+
+    .main2 .boxs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main2 .boxs .box {
+        width: 500px;
+        height: 200px;
+    }
+
+    .main2 .boxs .box.box1 .dark-overlay,
+    .main2 .boxs .box.box2 .dark-overlay,
+    .main2 .boxs .box.box3 .dark-overlay,
+    .main2 .boxs .box.box4 .dark-overlay {
+        border-radius: 0;
+    }
+
+    .main2 .boxs .box.box1 .orange-overlay,
+    .main2 .boxs .box.box2 .orange-overlay,
+    .main2 .boxs .box.box3 .orange-overlay,
+    .main2 .boxs .box.box4 .orange-overlay {
+        border-radius: 0;
+    }
+
+    main .main2 .boxs .box .orange-overlay p {
+        width: 180px;
+        font-size: 14px;
+    }
+
+    main .main2 .boxs .box.box3 .orange-overlay p {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    main .main4 {
+        height: 1800px;
+        padding: 0;
+    }
+
+    main .main4 .page4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .main4 .page4 .news {
+        margin-top: 80px;
+    }
+
+    main .main4 .page4 .announcement {
+        margin-top: 120px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0;
+    }
+
+    footer .logo2 img {
+        margin-left: 300px;
+    }
+
+    footer .sl p {
+        margin: 0;
+        width: 500px;
+        margin-left: 150px;
+    }
+
+    footer .set {
+        margin: 30px 0 0 250px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        max-width: 425px;
+        margin: 0 auto;
+    }
+
+    body header {
+        display: none;
+    }
+
+    .sub_head .mobile-header .menuf .hamburger {
+        margin-top: 3px;
+    }
+
+    body .sub_head {
+        width: 100%;
+        display: block;
+        position: fixed;
+        z-index: 99;
+    }
+
+    body .sub_head .mobile-header .menuf .logo a img {
+        width: 70px;
+        margin-top: 3px;
+    }
+
+    body .sub_head .mobile-header {
+        height: 50px;
+    }
+
+    .sub_head .mobile-header .sumn li {
+        font-size: 15px;
+    }
+
+
+    .main1 .mainpage1 {
+        height: 300px;
+    }
+
+    .main1 .swiper-pagination {
+        --swiper-theme-color: #F3744D;
+    }
+
+    main .main2 {
+        height: 1000px;
+    }
+
+    main .main2 .bg {
+        padding-top: 30px;
+    }
+
+    main .main2 .bg h2 {
+        font-size: 20px;
+        padding-right: 22%;
+    }
+
+    main .main2 .bg p {
+        padding-right: 32%;
+    }
+
+    .main1 .mainpage1 .img1 {
+        background: url(../img/bb.png) no-repeat center;
+    }
+
+
+    .main2 .boxs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main2 .boxs .box {
+        width: 300px;
+        height: 150px;
+    }
+
+    main .main2 .boxs .box.box1 h3 {
+        font-size: 15px;
+    }
+
+    .main2 .boxs .box.box1 .dark-overlay,
+    .main2 .boxs .box.box2 .dark-overlay,
+    .main2 .boxs .box.box3 .dark-overlay,
+    .main2 .boxs .box.box4 .dark-overlay {
+        border-radius: 0;
+    }
+
+    .main2 .boxs .box.box1 .orange-overlay,
+    .main2 .boxs .box.box2 .orange-overlay,
+    .main2 .boxs .box.box3 .orange-overlay,
+    .main2 .boxs .box.box4 .orange-overlay {
+        border-radius: 0;
+    }
+
+    main .main2 .boxs .box .orange-overlay p {
+        display: none;
+    }
+
+    main .main2 .boxs .box.box3 .orange-overlay p {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    main .main4 {
+        height: 1800px;
+        padding: 0;
+    }
+
+    main .main4 .page4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .main4 .page4 .news {
+        margin-top: 80px;
+    }
+
+    main .main4 .page4 .announcement {
+        margin-top: 120px;
+    }
+
+    main .main4 .page4 .announcement p {
+        width: 150px
+    }
+
+    main .main4 .page4 .announcement .size p.delete {
+        display: none;
+    }
+
+    main .main4 .page4 .announcement .an1,
+    main .main4 .page4 .announcement .an2,
+    main .main4 .page4 .announcement .an3,
+    main .main4 .page4 .announcement .an4,
+    main .main4 .page4 .announcement .an5,
+    main .main4 .page4 .announcement .an6,
+    main .main4 .page4 .announcement .an7,
+    main .main4 .page4 .announcement .an8 {
+        width: 400px;
+    }
+
+    main .main4 .page4 .announcement .size p {
+        font-size: 14px;
+        width: 200px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0;
+    }
+
+    footer .logo2 img {
+        margin-left: 300px;
+    }
+
+    footer .sl p {
+        margin: 0;
+        width: 500px;
+        margin-left: 150px;
+    }
+
+    footer .set {
+        margin: 30px 0 0 250px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    main .main4 .page4 .announcement .an1,
+    main .main4 .page4 .announcement .an2,
+    main .main4 .page4 .announcement .an3,
+    main .main4 .page4 .announcement .an4,
+    main .main4 .page4 .announcement .an5,
+    main .main4 .page4 .announcement .an6,
+    main .main4 .page4 .announcement .an7,
+    main .main4 .page4 .announcement .an8 {
+        width: 380px;
+    }
+
+    main .main4 .page4 .announcement .size p {
+        font-size: 14px;
+        width: 200px;
+        text-align: center;
+    }
+
+}

@@ -75,7 +75,7 @@ header .menubar>ul>li {
     font-weight: 600;
 }
 
-header .menubar>ul>li:hover {
+header .menubar ul li ul li a:hover {
     color: #F3744D;
 }
 
@@ -111,6 +111,65 @@ header .minimenu ul {
 
 header .minimenu a:hover {
     color: #F3744D;
+}
+
+.sub_head {
+    display: none;
+    transition: all .3s;
+}
+
+/* 모바일용 햄버거 버튼 및 메뉴 */
+.mobile-header {
+    background-color: #fff;
+    padding: 5px 20px;
+    height: 60px;
+}
+
+.menuf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-header .logo img {
+    width: 50%;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background-color: #f7f7f7;
+}
+
+.sub_head .mobile-header>ul>li {
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.sub_head .mobile-header>ul>li ul li {
+    display: none;
+}
+
+.sumn {
+    display: none;
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.sub_head .mobile-header>ul>li:hover ul li {
+    display: block;
 }
 
 
@@ -443,8 +502,8 @@ main .main4 .page4 .news h2 {
 }
 
 main .main4 .page4 .news1,
-.news2,
-.news3 {
+main .main4 .page4 .news2,
+main .main4 .page4 .news3 {
     width: 305px;
     height: 130px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -745,6 +804,7 @@ footer .set a:hover {
     height: 40px;
     background-color: #333;
     display: none;
+    z-index: 99;
 }
 
 .gotop span {
