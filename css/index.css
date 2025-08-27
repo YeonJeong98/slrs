@@ -151,15 +151,14 @@ header .minimenu a:hover {
 
 .sub_head .mobile-header>ul>li {
     font-size: 18px;
-    line-height: 2;
-    margin-top: 10px;
+    line-height: 2.5;
     font-weight: 500;
+    margin-top: 3px;
 }
 
 .sub_head .mobile-header>ul>li>ul {
     display: none;
 }
-
 
 .sumn {
     display: none;
@@ -354,7 +353,7 @@ main .main2 .bg p {
 
 /* main3 */
 main .main3 {
-    background-color: #F6F6F6;
+    background-color: #eeeeee;
     width: 100%;
     padding: 80px 0;
     min-height: 1000px;
@@ -363,7 +362,6 @@ main .main3 {
 main .main3 h2 {
     font-size: 50px;
     text-align: center;
-    margin-top: 100px;
     color: #2c2c2c;
 }
 
